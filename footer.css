@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    min-height: 100vh;
+   
+   
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    color: rgb(17, 17, 17);
+    background-color: rgb(79, 83, 83);
+    width: 100%;
+    margin-top: auto;
+
+   
+   
+    
+}
+
+.upperfooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #151515;
+    padding: 50px 98px 70px 98px;
+    margin-bottom: 1px;
+   
+    
+}
+
+.upperfooter h1{
+    color: azure;
+    font-size: 20px;
+    line-height: 2.4;
+}
+
+.upperfooter h5{
+    color: #9e9e9e;
+    font-size: 13px;
+    line-height: 2.7;
+}
+
+
+.upperfooter h5:hover{
+    translate: 10px 0px;
+    transition:all  0.3ms ease-in-out;
+    color: rgb(255, 255, 255);
+   
+}
+
+
+.contact, .company, .programs, .support, .mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #9e9e9e;
+    font-size: 15px;
+    gap: 10px;
+    
+}
+
+.appstore, .playstore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color:#0A0A0A;
+    color: white;
+    width: 245px;
+    height: 75px;
+    padding: 10px 30px;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 3px;
+}
+
+h6{
+    color: #6f7074;
+    font-size: 13px;
+}
+   
+
+.playstore:hover,
+ .appstore:hover
+ {
+    background-color: rgb(38, 120, 243);
+}
+.appstore h6:hover,
+ .playstore h6:hover{
+    color: rgb(255, 255, 255);
+ }
+
+
+
+
+.playstore img, .appstore img{
+    width: 30px;
+    
+}
+
+
+
+
+
+
+.middlefooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #151515;
+    width: 100%;
+    padding: 10px 100px;
+    
+   
+}
+ .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;  
+    gap: 15px;
+    padding: 10px 5px;
+    width: 60%;
+   
+  
+ }
+
+ .links a{
+    color: #9e9e9e;
+    font-size: 13px;
+    
+    
+ }
+
+ .links a:hover{
+    color: rgb(255, 255, 255);
+ }
+
+ .logo{
+    padding: 5px;
+   
+ }
+
+ .social{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:27px;
+ }
+
+
+
+
+
+
+
+.downfooter{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0A0A0A;
+    height: 70px;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: center;
+    color: #6f7074;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.642;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .upperfooter, .middlefooter, .downfooter{
+        padding:70px 13px;
+        width: 100%;
+        
+    }
+
+    .appstore, .playstore, .links, .logo, .social{
+        width: 100%;
+    }
+
+    
+    
+    .contact, .company, .support, .programs, .mobile{
+        width: 100%;
+    }
+    
+    .links, .logo, .social{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    
+     
+    }
