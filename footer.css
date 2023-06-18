@@ -179,7 +179,7 @@ h6{
     display: flex;
     flex-wrap: wrap;
     background-color: #0A0A0A;
-    height: 70px;
+    min-height: 70px;
     padding: 25px 0;
     align-items: center;
     justify-content: center;
@@ -188,6 +188,60 @@ h6{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.642;
+}
+
+#arrowUp {
+    position: fixed;
+    height: auto;
+    width: auto;
+    right: 10px;
+    top: 10px;
+    font-size: 48px;
+  }
+  #arrowUp a {
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+    font-weight: bold;
+    font-family: serif;
+  }
+
+
+ 
+@media only screen and ( max-width:1024px){
+    .upperfooter, .middlefooter, .downfooter{
+     padding: 70px  50px;
+    
+       
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+    .contact, .company, .support, .programs{
+        width: 33%;
+        gap: 25px;
+    }
+
+    .mobile{
+        width: 65%;
+    }
+    .appstore, .playstore{
+        width: 70%;
+    }
+    .links{
+        width: 30%;
+        flex-wrap:wrap ;
+        gap: 20px;
+    }
+   .middlefooter, .downfooter{
+    flex-wrap: nowrap;
+    padding: 8px 50px;
+    
+   }
+   .social{
+   gap: 0;
+   width: 20%;
+   }
 }
 
 
@@ -215,7 +269,8 @@ h6{
         justify-content: center;
         gap: 16px;
     }
+}
+
 
     
-     
-    }
+
