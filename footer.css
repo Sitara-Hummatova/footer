@@ -156,6 +156,7 @@ h6{
  }
 
  .logo{
+    display: flex;
     padding: 5px;
    
  }
@@ -269,6 +270,17 @@ h6{
         justify-content: center;
         gap: 16px;
     }
+    .middlefooter{
+        flex-wrap: wrap;
+        gap: 30px;
+       
+    }
+
+    .downfooter, .middlefooter{
+        padding: 10px 50px;
+    }
+
+   
 }
 
 
